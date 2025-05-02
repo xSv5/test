@@ -1,5 +1,7 @@
 from flask import Flask, request, Response
 import requests
+import os
+
 
 app = Flask(__name__)
 TARGET_URL = 'https://xsv4mailsender.pythonanywhere.com/verify'
